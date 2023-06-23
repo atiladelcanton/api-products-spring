@@ -5,5 +5,5 @@ import jakarta.validation.constraints.NotNull;
 
 import java.math.BigDecimal;
 
-public record ProductRecordDto(@NotBlank(message = "Passa o nome viado") String name, @NotNull BigDecimal value) {
+public record ProductRecordDto(@NotBlank(message = "Informe o nome do produto") String name, @NotNull BigDecimal value) {
 }
